@@ -32,9 +32,11 @@ basic.forever(function () {
             if (start == 0) {
                 if (second >= 100 && second <= 1000) {
                     basic.showNumber(second)
+                    basic.pause(1000)
                     second += -3
                 } else if (second >= 10 && second <= 100) {
                     basic.showNumber(second)
+                    basic.pause(1000)
                     second += -2
                 } else {
                     basic.showNumber(second)
